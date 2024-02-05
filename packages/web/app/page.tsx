@@ -2,13 +2,18 @@
 import styles from "./page.module.css";
 import Image from "next/image";
 import {useEffect} from "react";
-import {sayHi} from "@root/shared/dist/general";
 
 export default function Home() {
 
+  const testApiCall = async (): Promise<void> => {
+    const res = await fetch('http://localhost:4000')
+    const data = await res.json()
+    console.log(data)
+  }
+
   useEffect(() => {
     console.log('HOME PAGE')
-    console.log(sayHi())
+    testApiCall()
   }, [])
 
   return (

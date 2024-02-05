@@ -9,8 +9,6 @@
     "lerna": "^8.0.2"
   },
   "scripts": {
-    "dev:client": "lerna run start:dev:client",
-    "dev:shared": "lerna run start:dev:shared",
-    "dev:server": "lerna run start:dev:server"
+    "dev:shared": "lerna run start:dev:shared"
   }
 }

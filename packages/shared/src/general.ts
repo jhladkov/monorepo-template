@@ -1,3 +1,3 @@
 export const sayHi = (): string => {
-    return 'HAHAHA IT WORKS'
+    return JSON.stringify('HAHAHA IT WORKS')
 }
