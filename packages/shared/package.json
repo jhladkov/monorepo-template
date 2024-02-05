@@ -1,0 +1,13 @@
+{
+  "name": "@root/shared",
+  "private": true,
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "tsc",
+    "start:dev:shared": "tsc -w"
+  },
+  "devDependencies": {
+    "typescript": "^5.1.3"
+  },
+  "main": "dist/src/general.ts"
+}
